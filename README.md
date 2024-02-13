@@ -11,9 +11,11 @@ Currently, two official plugins are available:
 
 - Initialize the dependencies by running the following command: `npm install`
 - Run the server locally by running the following command: `npm run dev`
+- Type `http://localhost:5173/` in the address bar on your browser like Google Chrome, Firefox, Opera, or Safari
 
 # References
 
 - [How to Build an Awesome Landing Page in ReactJS and TailwindCSS on YouTube](https://www.youtube.com/watch?v=UKAbQnCHy4M)
+
 - [FitApp landing page](https://technext.github.io/FitApp/)
 - [TaskMaster - Task management app landing page on Dribbles](https://dribbble.com/shots/22364970-TaskMaster-Task-Management-App-Landing-Page)
