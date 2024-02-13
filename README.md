@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 - Initialize the dependencies by running the following command: `npm install`
 - Run the server locally by running the following command: `npm run dev`
 
-# Reference:
+# References
 
 - [How to Build an Awesome Landing Page in ReactJS and TailwindCSS on YouTube](https://www.youtube.com/watch?v=UKAbQnCHy4M)
 - [FitApp landing page](https://technext.github.io/FitApp/)
