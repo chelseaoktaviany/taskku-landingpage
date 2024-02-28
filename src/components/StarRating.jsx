@@ -1,13 +1,13 @@
 const StarRating = ({ rating }) => {
   return (
-    <div className="py-2 flex justify-center items-center">
+    <div className="flex items-center justify-center py-2">
       {[...Array(rating)].map(() => (
         <svg
           key={rating}
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="w-6 h-6"
+          className="size-6"
         >
           <path
             fillRule="evenodd"
@@ -24,7 +24,7 @@ const StarRating = ({ rating }) => {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-6 h-6"
+          className="size-6"
         >
           <path
             strokeLinecap="round"

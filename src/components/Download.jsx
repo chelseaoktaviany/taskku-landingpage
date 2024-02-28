@@ -4,13 +4,13 @@ import TaskkuApp from "../assets/taskku.png";
 const Download = () => {
   return (
     <div id="download" className="w-full bg-white py-24">
-      <div className="md:max-w-[1280px] m-auto grid md:grid-cols-2 sm:max-w-[600px] max-w-[400px] items-center">
+      <div className="m-auto grid max-w-[400px] items-center sm:max-w-[600px] md:max-w-[1280px] md:grid-cols-2">
         <div className="flex flex-col justify-start gap-4">
-          <h1 className="md:leading-[50px] py-2 md:text-4xl text-3xl font-semibold">
+          <h1 className="py-2 text-3xl font-semibold md:text-4xl md:leading-[50px]">
             Start experincing our new application called{" "}
             <span className="text-[#7860C3]">Taskku</span> App
           </h1>
-          <p className="leading-[30px] py-1 text-xl text-gray-600">
+          <p className="py-1 text-xl leading-[30px] text-gray-600">
             There are a few of features in the application. This boosts
             productivity and time management for developers, freelancers and
             other roles
@@ -24,7 +24,7 @@ const Download = () => {
         </div>
         <img
           src={TaskkuApp}
-          className="md:order-last order-first w-[1100px] h-[500px] object-contain"
+          className="order-first h-[500px] w-[1100px] object-contain md:order-last"
         />
       </div>
     </div>

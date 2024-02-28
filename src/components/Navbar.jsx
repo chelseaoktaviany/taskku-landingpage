@@ -11,13 +11,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[80px] bg-white border-b">
-      <div className="md:max-w-[1280px] sm:max-w-[600px] max-w-[400px] m-auto w-full h-full flex justify-between items-center">
+    <div className="h-[80px] w-full border-b bg-white">
+      <div className="m-auto flex size-full max-w-[400px] items-center justify-between sm:max-w-[600px] md:max-w-[1280px]">
         <a href="/">
           <img src={logo} className="h-[25px]" />
         </a>
 
-        <div className="hidden md:flex items-center">
+        <div className="hidden items-center md:flex">
           <ul className="flex gap-8">
             <li>
               <a href="#home">Home</a>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex">
           <a
-            className="px-8 py-3 rounded-md bg-[#7860C3] text-[#F4F4F4] font-bold hover:bg-[#624ba7]"
+            className="rounded-md bg-[#7860C3] px-8 py-3 font-bold text-[#F4F4F4] hover:bg-[#624ba7]"
             href="#download"
           >
             Get demo
@@ -47,13 +47,13 @@ const Navbar = () => {
         </div>
 
         <div className="md:hidden" onClick={handleClick}>
-          <img src={toggle ? close : hamburger} className="w-[25px] h-[25px]" />
+          <img src={toggle ? close : hamburger} className="size-[25px]" />
         </div>
       </div>
 
       <div
         className={
-          toggle ? "absolute z-10 p-4 bg-white w-full px-8 md:hidden" : "hidden"
+          toggle ? "absolute z-10 w-full bg-white p-4 px-8 md:hidden" : "hidden"
         }
       >
         <ul>
@@ -72,9 +72,9 @@ const Navbar = () => {
           <li className="p-4 hover:bg-gray-100">
             <a href="#newsletter">Newsletter</a>
           </li>
-          <div className="flex flex-col my-4 gap-4">
+          <div className="my-4 flex flex-col gap-4">
             <a
-              className="px-8 py-5 rounded-md bg-[#7860C3] text-[#F4F4F4] font-bold"
+              className="rounded-md bg-[#7860C3] px-8 py-5 font-bold text-[#F4F4F4]"
               href="#download"
             >
               Get demo

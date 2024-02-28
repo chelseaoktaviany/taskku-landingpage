@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <div className="relative w-full bg-[#5e51b3] py-20">
-      <div className="md:max-w-[1280px] sm:max-w-[600px] max-w-[400px] m-auto">
+      <div className="m-auto max-w-[400px] sm:max-w-[600px] md:max-w-[1280px]">
         <Wave
           fill="#5e51b3"
           style={{
@@ -19,10 +19,10 @@ const Footer = () => {
           speed={0.3}
           points={4}
         />
-        <h1 className="py-3 text-2xl font-bold text-[#f4f4f4] text-center">
+        <h1 className="py-3 text-center text-2xl font-bold text-[#f4f4f4]">
           Contact Us
         </h1>
-        <div className="py-3 flex justify-center items-center gap-5">
+        <div className="flex items-center justify-center gap-5 py-3">
           <a href="">
             <FaFacebook size={28} color={"#f4f4f4"} />
           </a>
@@ -33,7 +33,7 @@ const Footer = () => {
             <FaInstagram size={28} color={"#f4f4f4"} />
           </a>
         </div>
-        <div className="p-4 flex justify-center items-center">
+        <div className="flex items-center justify-center p-4">
           <ul className="flex gap-5">
             <li>
               <a href="#home" className="text-white">
@@ -62,7 +62,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p className="text-gray-300 text-center font-normal">
+        <p className="text-center font-normal text-gray-300">
           Copyright &copy; {date.getFullYear()}. All rights reserved.
         </p>
       </div>

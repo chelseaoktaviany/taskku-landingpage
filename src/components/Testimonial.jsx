@@ -34,15 +34,15 @@ const data = [
 const Testimonial = () => {
   return (
     <div id="testimonial" className="w-full bg-[#dbd8ec] py-24">
-      <div className="md:max-w-[1280px] sm:max-w-[600px] max-w-[400px] m-auto">
-        <p className="py-2 text-2xl text-[#7860C3] font-bold text-center">
+      <div className="m-auto max-w-[400px] sm:max-w-[600px] md:max-w-[1280px]">
+        <p className="py-2 text-center text-2xl font-bold text-[#7860C3]">
           Hear What Our Users Say
         </p>
-        <p className="text-lg text-gray-600 text-center">
+        <p className="text-center text-lg text-gray-600">
           Discover why users love Taskku app
         </p>
         <div className="flex justify-center py-7">
-          <div className="items-center grid md:grid-cols-3 gap-10">
+          <div className="grid items-center gap-10 md:grid-cols-3">
             {data.map((item) => (
               <Card
                 key={item.id}
